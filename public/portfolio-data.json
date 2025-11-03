@@ -4,11 +4,12 @@
     "title": "Software Engineering Student",
     "subtitle": "AI & Machine Learning Specialist",
     "location": "USTC, China",
-    "email": "sanoumohamed@mail.ustc.edu.cn",
+    "email2": "sanoumohamed@mail.ustc.edu.cn",
+    "email": "sanoumohamed97@gmail.com",
     "phone": "+86 19720561529",
     "github": "https://github.com/lord97",
     "linkedin": "https://www.linkedin.com/in/mohamed-bachir-sanou",
-    "bio": "Master's student specializing in AI/ML with proven expertise in NLP, Computer Vision, and Full-Stack Development. Passionate about building intelligent systems that solve real-world problems.",
+    "bio": "Master's student in Software Engineering @ USTC specializing in AI/ML with proven expertise in NLP/LLM, Computer Vision, and Full-Stack Development. Passionate about building intelligent systems that solve real-world problems. ",
     "avatar": "/avatar.jpg"
   },
   "education": [

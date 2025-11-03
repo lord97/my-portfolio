@@ -9,7 +9,7 @@ const App = () => {
 
   // Load data from JSON file
   useEffect(() => {
-    fetch('/portfolio-data.json')
+    fetch(`${import.meta.env.BASE_URL}portfolio-data.json`)  // ← CHANGEMENT ICI
       .then(response => response.json())
       .then(data => setPortfolioData(data))
       .catch(error => console.error('Error loading data:', error));
@@ -34,14 +34,16 @@ const App = () => {
 
   if (!portfolioData) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 flex items-center justify-center">
         <div className="text-white text-2xl">Loading...</div>
       </div>
     );
   }
 
+
+
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white">
+    <div className="min-h-screen bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
       {/* Navigation */}
       <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-slate-900/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -91,10 +93,12 @@ const App = () => {
       {/* Hero Section */}
       <section id="home" className="min-h-screen flex items-center justify-center px-4 pt-16">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8">
-            <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 flex items-center justify-center text-4xl font-bold">
-              {portfolioData.personal.name.split(' ').map(n => n[0]).join('')}
-            </div>
+         <div className="mb-8">
+            <img
+              src={`${import.meta.env.BASE_URL}avatar.jpeg`} // chemin depuis public/
+              alt={portfolioData.personal.name}
+              className="w-32 h-32 mx-auto mb-6 rounded-full object-cover border-4 border-purple-500/50"
+            />
           </div>
           <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-400 bg-clip-text text-transparent animate-pulse">
             {portfolioData.personal.name}
@@ -274,16 +278,17 @@ const App = () => {
             <span className="bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">Get In Touch</span>
           </h2>
           <p className="text-xl text-gray-300 mb-8">
-            I'm currently seeking opportunities at GAFAM companies. Let's connect!
+            I'm currently seeking opportunities. Let's connect!
           </p>
           
           <div className="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
             <a href={`mailto:${portfolioData.personal.email}`} className="flex items-center text-purple-300 hover:text-purple-400 transition-colors">
               <Mail className="mr-2" /> {portfolioData.personal.email}
             </a>
-            <a href={`tel:${portfolioData.personal.phone}`} className="flex items-center text-purple-300 hover:text-purple-400 transition-colors">
-              <Phone className="mr-2" /> {portfolioData.personal.phone}
+            <a href={`mailto:${portfolioData.personal.email}`} className="flex items-center text-purple-300 hover:text-purple-400 transition-colors">
+              <Mail className="mr-2" /> {portfolioData.personal.email2}
             </a>
+            
           </div>
           
           <a href={`mailto:${portfolioData.personal.email}`} className="inline-block bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 px-8 py-3 rounded-full font-semibold transition-all transform hover:scale-105">
@@ -295,7 +300,7 @@ const App = () => {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-purple-500/20">
         <div className="max-w-6xl mx-auto text-center text-gray-400">
-          <p>© 2025 {portfolioData.personal.name}. Built with React & Tailwind CSS</p>
+          <p>© 2025 {portfolioData.personal.name}. Mohamed Bachir SANOU</p>
         </div>
       </footer>
     </div>
