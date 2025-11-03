@@ -1,0 +1,320 @@
+{
+  "personal": {
+    "name": "Mohamed Bachir SANOU",
+    "title": "Software Engineering Student",
+    "subtitle": "AI & Machine Learning Specialist",
+    "location": "USTC, China",
+    "email": "sanoumohamed@mail.ustc.edu.cn",
+    "phone": "+86 19720561529",
+    "github": "https://github.com/lord97",
+    "linkedin": "https://www.linkedin.com/in/mohamed-bachir-sanou",
+    "bio": "Master's student specializing in AI/ML with proven expertise in NLP, Computer Vision, and Full-Stack Development. Passionate about building intelligent systems that solve real-world problems.",
+    "avatar": "/avatar.jpg"
+  },
+  "education": [
+    {
+      "id": 1,
+      "institution": "University of Science and Technology of China (USTC)",
+      "degree": "Master in Software Engineering",
+      "location": "China",
+      "startDate": "09/2024",
+      "endDate": "Present",
+      "status": "CAS-ANSO Scholar",
+      "focus": ["Software Development", "Natural Language Processing (NLP)", "Computer Vision", "Deep Learning", "AI"],
+      "gpa": null
+    },
+    {
+      "id": 2,
+      "institution": "NAZI BONI University / ESI",
+      "degree": "Master in Data Science",
+      "location": "Burkina Faso",
+      "startDate": "10/2021",
+      "endDate": "07/2023",
+      "status": "National Scholar",
+      "focus": ["Data Analysis", "Data Prediction", "Machine Learning", "Artificial Intelligence"],
+      "thesis": "Early Detection of Maize Diseases Using AI (93% accuracy on YOLOv9)",
+      "gpa": null
+    },
+    {
+      "id": 3,
+      "institution": "NAZI BONI University / ESI",
+      "degree": "Bachelor's degree in Information Systems Engineering",
+      "location": "Burkina Faso",
+      "startDate": "10/2018",
+      "endDate": "07/2021",
+      "status": "National Scholar (Distinction)",
+      "focus": ["Algorithms", "Complexity", "Web & Mobile Development", "Networks", "Security"],
+      "thesis": "Web-based meal ordering application",
+      "gpa": null
+    }
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "title": "Research & Development Intern - Artificial Intelligence",
+      "company": "World Food Program (WFP)",
+      "location": "Burkina Faso",
+      "startDate": "09/2023",
+      "endDate": "02/2024",
+      "type": "Internship",
+      "description": [
+        "Conducted state-of-the-art literature review on plant disease detection using image processing",
+        "Designed and implemented preprocessing pipelines (image normalization, augmentation) for agricultural datasets",
+        "Developed and evaluated a YOLOv9-based model, achieving 93% accuracy on maize disease classification",
+        "Deployed model on a web application for real-time farmer assistance"
+      ],
+      "technologies": ["Python", "PyTorch", "FastAPI", "Laravel"],
+      "githubLink": ""
+    },
+    {
+      "id": 2,
+      "title": "Fullstack Developer",
+      "company": "National Institute of Public Health (INSP)",
+      "location": "Burkina Faso",
+      "startDate": "08/2022",
+      "endDate": "09/2022",
+      "type": "Contract",
+      "description": [
+        "Built a semantic web recommendation engine for the National Institute of Public Health",
+        "Implemented recommendation algorithms using Laravel and Python"
+      ],
+      "technologies": ["Laravel", "Python", "PHP"],
+      "githubLink": ""
+    },
+    {
+      "id": 3,
+      "title": "Full-Stack Developer",
+      "company": "AsOnePaie",
+      "location": "France (Remote)",
+      "startDate": "06/2022",
+      "endDate": "06/2024",
+      "type": "Remote",
+      "description": [
+        "Implemented payroll automation with payslip web application",
+        "Integrated Google Vision API for document processing",
+        "Built comprehensive HR management and Fintech solution"
+      ],
+      "technologies": ["Laravel", "Google Vision API", "PHP"],
+      "githubLink": ""
+    },
+    {
+      "id": 4,
+      "title": "Web Application Developer Intern",
+      "company": "NOS3S",
+      "location": "Burkina Faso",
+      "startDate": "09/2021",
+      "endDate": "04/2022",
+      "type": "Internship",
+      "description": [
+        "Designed and implemented a web application for meal ordering",
+        "Used Scrum methodology for agile development",
+        "Built full-stack solution with Laravel and PHP"
+      ],
+      "technologies": ["Laravel", "PHP", "Scrum"],
+      "githubLink": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "LLM Fine-tuning for Cybersecurity Spam Detection",
+      "category": "Graduate Research",
+      "date": "2025",
+      "description": "Fine-tuned DeepSeek-R1-Distill-Llama-8B using LoRA training on SpamAssassin dataset with chain-of-thought prompt engineering",
+      "highlights": [
+        "Implemented LoRA training for efficient fine-tuning",
+        "Applied chain-of-thought prompt engineering methods",
+        "Used Unsloth and Weights & Biases for training optimization"
+      ],
+      "technologies": ["Python", "PyTorch", "LoRA", "Unsloth", "wandb"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/spam-detection.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Text Summarization with Langchain",
+      "category": "Graduate Research",
+      "date": "2025",
+      "description": "Engineered a Streamlit web application for text summarization using LangChain framework and Gemini/OpenAI API",
+      "highlights": [
+        "Implemented document chunking for large file processing",
+        "Optimized LLM performance with Stuffing/MapReduce strategies",
+        "Built interactive Streamlit interface"
+      ],
+      "technologies": ["Python", "LangChain", "Streamlit", "Gemini API", "OpenAI API"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/summarization.jpg"
+    },
+    {
+      "id": 3,
+      "title": "NLP & E-commerce Chatbot",
+      "category": "Graduate Research",
+      "date": "2025",
+      "description": "Context-aware product recommendation chatbot for e-commerce using LLMs and Gemini API",
+      "highlights": [
+        "Formulated research problem on improving recommendation relevance",
+        "Implemented context-aware product suggestions",
+        "Built responsive web interface with Django and Tailwind CSS"
+      ],
+      "technologies": ["Python", "Django", "Tailwind CSS", "Gemini API", "NLP"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/ecommerce-chatbot.jpg"
+    },
+    {
+      "id": 4,
+      "title": "ML Workflow for Scones Unlimited (AWS SageMaker + MLOps)",
+      "category": "Cloud ML",
+      "date": "2025",
+      "description": "End-to-end ETL and image classification pipeline on AWS for delivery vehicle classification",
+      "highlights": [
+        "Developed scalable MLOps pipeline with AWS SageMaker",
+        "Deployed event-driven architecture using Lambda & Step Functions",
+        "Integrated monitoring and drift detection safeguards"
+      ],
+      "technologies": ["AWS SageMaker", "AWS Lambda", "AWS Step Functions", "Python"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/aws-mlops.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Handwritten Digit Classifier",
+      "category": "Deep Learning",
+      "date": "2025",
+      "description": "Multi-layer neural network for MNIST digit classification achieving >90% accuracy",
+      "highlights": [
+        "Preprocessed MNIST dataset with normalization and tensor conversion",
+        "Built and trained neural network in PyTorch",
+        "Tuned hyperparameters for optimal performance"
+      ],
+      "technologies": ["Python", "PyTorch", "Torchvision", "Matplotlib"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/mnist.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Data Analysis with PySpark",
+      "category": "Big Data",
+      "date": "2025",
+      "description": "Distributed data processing on LastFM dataset using PySpark for music listening insights",
+      "highlights": [
+        "Set up distributed processing environment in Google Colab",
+        "Performed ETL on large music datasets",
+        "Applied Spark SQL for data insights and visualization"
+      ],
+      "technologies": ["PySpark", "Python", "Matplotlib", "Spark SQL"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/pyspark.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Twitter Sentiment Analysis",
+      "category": "NLP",
+      "date": "2025",
+      "description": "Sentiment classification pipeline using Scikit-Learn and Naive Bayes classifier",
+      "highlights": [
+        "Created preprocessing and vectorization pipeline",
+        "Trained Naive Bayes classifier for sentiment detection",
+        "Achieved high accuracy on Twitter data"
+      ],
+      "technologies": ["Python", "Scikit-Learn", "NLP"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/sentiment.jpg"
+    },
+    {
+      "id": 8,
+      "title": "FPGA Image Processing Accelerator",
+      "category": "Hardware/Software",
+      "date": "2025",
+      "description": "Implemented Sobel & Scharr edge detection algorithms on FPGA with GUI",
+      "highlights": [
+        "Developed hardware acceleration for image processing",
+        "Created GUI for real-time visualization",
+        "Optimized algorithms for FPGA deployment"
+      ],
+      "technologies": ["Python", "C++", "FPGA"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/fpga.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Library Management System",
+      "category": "Full-Stack",
+      "date": "2025",
+      "description": "REST API for library management with comprehensive CRUD operations",
+      "highlights": [
+        "Built RESTful API with Spring Boot",
+        "Implemented author and book management features",
+        "Containerized application with Docker"
+      ],
+      "technologies": ["Java", "Spring Boot", "PostgreSQL", "Docker"],
+      "githubLink": "",
+      "demoLink": "",
+      "image": "/projects/library.jpg"
+    }
+  ],
+  "leadership": [
+    {
+      "id": 1,
+      "title": "Head of Digitization",
+      "organization": "AJPD BF NGO",
+      "location": "Burkina Faso",
+      "startDate": "05/2023",
+      "endDate": "06/2024",
+      "description": "Led 32-member tech team for an NGO with 500+ members, successfully delivered 3 platforms"
+    },
+    {
+      "id": 2,
+      "title": "Assistant Project Manager",
+      "organization": "Struct IoT Club",
+      "location": "Burkina Faso",
+      "startDate": "10/2018",
+      "endDate": "05/2024",
+      "description": "Trained members in IoT technologies and supervised embedded systems projects"
+    }
+  ],
+  "awards": [
+    {
+      "id": 1,
+      "title": "Tianju Dihe Competition",
+      "issuer": "China",
+      "date": "2025",
+      "description": "Excellence Award"
+    },
+    {
+      "id": 2,
+      "title": "World Bank Youth Summit 2024",
+      "issuer": "World Bank",
+      "date": "2024",
+      "description": "Selected Participant"
+    },
+    {
+      "id": 3,
+      "title": "Hackathon 226+",
+      "issuer": "Burkina Faso",
+      "date": "2022",
+      "description": "1st Prize"
+    }
+  ],
+  "skills": {
+    "AI/ML": ["NLP", "Computer Vision", "Neural Networks", "Deep Learning", "RAG", "AI Agents", "Optimization Algorithms", "Data Mining"],
+    "Programming": ["Python", "C/C++", "Java", "PHP", "JavaScript"],
+    "Frameworks": ["PyTorch", "TensorFlow", "FastAPI", "Laravel", "Django", "React.js", "LangChain"],
+    "Tools": ["Git", "Docker", "AWS SageMaker", "Google Vision API", "Gemini API", "OpenAI API", "FPGA", "Weights & Biases"],
+    "Data": ["PySpark", "PostgreSQL", "ETL", "Spark SQL"],
+    "MLOps": ["Model Evaluation", "Statistical Analysis", "Reproducibility", "AWS Lambda", "Step Functions"]
+  },
+  "languages": [
+    { "name": "French", "level": "Native" },
+    { "name": "English", "level": "Fluent" },
+    { "name": "Dioula", "level": "Native" },
+    { "name": "Mandarin", "level": "Basic" }
+  ]
+}
