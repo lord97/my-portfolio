@@ -118,6 +118,23 @@
   "projects": [
     {
       "id": 1,
+      "title": "Research RAG Assistant",
+      "category": "Personal Project",
+      "date": "2025",
+      "description": "An AI-powered research assistant that helps you interact with academic papers using Retrieval Augmented Generation (RAG).",
+      "highlights": [
+        "Developed a RAG system enabling researchers to semantically query academic papers using natural language",
+        "Engineered modular architecture with vector embeddings and semantic search, processing PDFs into queryable knowledge bases",
+        "Source Citations: Every answer includes references to specific papers and pages",
+        "Context-Aware: Understands the meaning of your questions, not just keywords"
+      ],
+      "technologies": ["Python", "Langchain", "Gemini AI", "Streamlit", "Chroma"],
+      "githubLink": "https://github.com/lord97/research-rag-assistant",
+      "demoLink": "https://github.com/lord97/research-rag-assistant",
+      "image": "/projects/spam-detection.jpg"
+    },
+    {
+      "id": 1,
       "title": "LLM Fine-tuning for Cybersecurity Spam Detection",
       "category": "Graduate Research",
       "date": "2025",
@@ -128,8 +145,8 @@
         "Used Unsloth and Weights & Biases for training optimization"
       ],
       "technologies": ["Python", "PyTorch", "LoRA", "Unsloth", "wandb"],
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/lord97/LLM_SPAM_DETECTION_ASSASSIN",
+      "demoLink": "https://github.com/lord97/LLM_SPAM_DETECTION_ASSASSIN",
       "image": "/projects/spam-detection.jpg"
     },
     {
@@ -144,8 +161,8 @@
         "Built interactive Streamlit interface"
       ],
       "technologies": ["Python", "LangChain", "Streamlit", "Gemini API", "OpenAI API"],
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/lord97/Text_Sumarization_langchain",
+      "demoLink": "https://github.com/lord97/Text_Sumarization_langchain",
       "image": "/projects/summarization.jpg"
     },
     {
@@ -160,8 +177,8 @@
         "Built responsive web interface with Django and Tailwind CSS"
       ],
       "technologies": ["Python", "Django", "Tailwind CSS", "Gemini API", "NLP"],
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/lord97/computer_advisor",
+      "demoLink": "https://github.com/lord97/computer_advisor",
       "image": "/projects/ecommerce-chatbot.jpg"
     },
     {
@@ -224,8 +241,8 @@
         "Achieved high accuracy on Twitter data"
       ],
       "technologies": ["Python", "Scikit-Learn", "NLP"],
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/lord97/Twitter_sentiment_Analysis",
+      "demoLink": "https://github.com/lord97/Twitter_sentiment_Analysis",
       "image": "/projects/sentiment.jpg"
     },
     {
@@ -240,8 +257,8 @@
         "Optimized algorithms for FPGA deployment"
       ],
       "technologies": ["Python", "C++", "FPGA"],
-      "githubLink": "",
-      "demoLink": "",
+      "githubLink": "https://github.com/USTC-SSE-practice/FPGA-Image-Processing-1",
+      "demoLink": "https://github.com/USTC-SSE-practice/FPGA-Image-Processing-1",
       "image": "/projects/fpga.jpg"
     },
     {
