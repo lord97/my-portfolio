@@ -258,12 +258,12 @@ const App = () => {
                 </div>
                 
                 <div className="flex space-x-3">
-                  <button className="flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                  <a href={project.githubLink} target="_blank" className="flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                     <Github size={18} className="mr-1" /> Code
-                  </button>
-                  <button className="flex items-center text-purple-400 hover:text-purple-300 transition-colors">
+                  </a>
+                  <a href={project.demoLink} target="_blank" className="flex items-center text-purple-400 hover:text-purple-300 transition-colors">
                     <ExternalLink size={18} className="mr-1" /> Demo
-                  </button>
+                  </a>
                 </div>
               </div>
             ))}
